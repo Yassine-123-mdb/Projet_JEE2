@@ -35,19 +35,20 @@
 							value="${produit.couleur}" />
 					</div>
 					<div class="form-group">
+						<label class="control-label">Prix :</label> <input type="text"
+							name="prix" class="form-control" value="${produit.prix}" />
+					</div>
+					<div class="form-group">
 						<label class="control-label">Ram Produit :</label> <input
 							type="text" name="ram" class="form-control"
 							value="${produit.ram}" />
 					</div>
 					<div class="form-group">
 						<label class="control-label">Stockage Produit :</label> <input
-							type="text" name="ram" class="form-control"
+							type="text" name="stockage" class="form-control"
 							value="${produit.stockage}" />
 					</div>
-					<div class="form-group">
-						<label class="control-label">Prix :</label> <input type="text"
-							name="prix" class="form-control" value="${produit.prix}" />
-					</div>
+					
 					<div>
 						<button type="submit" class="btn btn-primary">Modifier</button>
 					</div>

@@ -20,25 +20,25 @@
 
 				<div class="form-group">
 					<label class="control-label">ID :</label> <input type="text"
-						name="Nom" class="form-control" value="${produit.id }" /> <label
+						name="id" class="form-control" value="${produit.id }" /> <label
 						class="control-label">Nom Produit :</label> <input type="text"
-						name="Nom" class="form-control" value="${produit.marque }" />
+						name="marque" class="form-control" value="${produit.marque }" />
 				</div>
 				<div class="control-label">
 					<label class="control-label">Couleur :</label> <input type="text"
-						name="Prix" class="form-control" value="${produit.couleur }" />
+						name="couleur" class="form-control" value="${produit.couleur }" />
 				</div>
 				<div class="control-label">
 					<label class="control-label">Prix :</label> <input type="text"
-						name="Prix" class="form-control" value="${produit.prix }" />
+						name="prix" class="form-control" value="${produit.prix }" />
 				</div>
 				<div class="control-label">
 					<label class="control-label">Ram :</label> <input type="text"
-						name="Prix" class="form-control" value="${produit.ram }" />
+						name="ram" class="form-control" value="${produit.ram }" />
 				</div>
 				<div class="control-label">
 					<label class="control-label">Stockage :</label> <input type="text"
-						name="Prix" class="form-control" value="${produit.stockage }" />
+						name="stockage" class="form-control" value="${produit.stockage }" />
 				</div>
 			</div>
 

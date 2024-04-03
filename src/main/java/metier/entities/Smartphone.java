@@ -1,9 +1,22 @@
 package metier.entities;
 
 import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "SMARTPHONE")
 public class Smartphone implements Serializable{
-	private long id;
+	
+	@Id
+	@Column (name="id")
+	@GeneratedValue (strategy=GenerationType.IDENTITY)
+	private Long id;
+	@Column (name="marque")
 	private String marque;
 	private String couleur;
 	private double prix;
@@ -17,7 +30,7 @@ public class Smartphone implements Serializable{
 
 	public Smartphone(String marque, String couleur, double prix, String ram, String stockage) {
 		super();
-		this.id = id;
+
 		this.marque = marque;
 		this.couleur = couleur;
 		this.prix = prix;
